@@ -150,7 +150,7 @@ export function BoutiqueHome() {
         </div>
       </section>
 
-      <Button type="button" variant="floating" onClick={() => goTo("#collection")} className="fixed bottom-4 right-3 z-30 sm:bottom-6 sm:right-6"><ShoppingBag /> <span>Mini Collection</span></Button>
+      <Button type="button" variant="floating" onClick={() => goTo("#collection")} className="fixed bottom-3 right-2 z-30 h-10 px-3 text-[10px] sm:bottom-6 sm:right-6 sm:h-10 sm:px-4 sm:text-xs"><ShoppingBag /> <span>Mini Collection</span></Button>
 
       <section id="collection" className="collection-surface scroll-mt-20 px-3 py-16 sm:px-8 sm:py-24 lg:px-12">
         <div className="mx-auto max-w-screen-2xl">
