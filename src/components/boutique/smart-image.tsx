@@ -6,7 +6,7 @@ type SmartImageProps = {
   src: string;
   alt: string;
   className?: string;
-  eager?: boolean;
+  eager?: boolean | undefined;
   sizes: string;
 };
 
